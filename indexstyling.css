@@ -9,6 +9,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+    height: 20px;
 }
 a {
     text-decoration: none;
@@ -31,35 +32,34 @@ video {
 h1 {
     text-align: center;
 }
-nav ul {
+.dropdown {
     list-style: none;
-    display: flex;
+    display: block;
     gap: 20px;
     margin: 0;
     padding: 0;
+    
 }
-nav li {
-    position: relative;
-}
-.dropdown-content {
-    display: none;
+.dropdownmenu li {
     position: absolute;
     background-color: #444;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+.dropdownmenu {
+    display: none; 
     top: 35px;
     left: 0;
 }
-.dropdown-content li {
-    padding: 10px;
-}
-.dropdown-content li a {
+.dropdownmenu li a {
     color: white;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdownmenu {
     display: block;
 }
-.dropdown-content li a:hover {
+.dropdownmenu li a:hover {
     background-color: #555;
 }
-li a {
-    display: block;
-}
+
