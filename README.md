@@ -10,6 +10,8 @@ Photography-Website is a space where I share my love for traveling, wildlife, an
 
 * Simply access the website via an internet connection.
 
+* Deployed link : https://kaynanmwangi.github.io/Photography-Website/
+
 ## Known Bugs
 There are no known bugs at the moment.
 
