@@ -10,3 +10,8 @@ img {
     gap: 30px;
     flex-wrap: wrap;
 }
+body {
+    background-color: #333;
+    color: white;
+
+}
