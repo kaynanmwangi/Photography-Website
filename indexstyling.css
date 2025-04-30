@@ -1,5 +1,7 @@
 body {
-    background: linear-gradient(to bottom, #F5F5DC, #FAF0E6)
+    background-color: #333;
+    color: white;
+    /* background: linear-gradient(to bottom, #F5F5DC, #FAF0E6) */
 
 }
 .navigation {
@@ -47,6 +49,14 @@ h1 {
 .dropdownmenu li {
     color: white;
     padding: 10px;
+}
+h2 {
+    text-align: center;
+}
+
+nav a:hover {
+    color: #2E8B57;
+    text-decoration: underline;
 }
 
 
